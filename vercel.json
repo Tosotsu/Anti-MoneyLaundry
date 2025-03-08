@@ -4,7 +4,6 @@
   "installCommand": "npm install --no-package-lock --force --omit=dev",
   "framework": "nextjs",
   "outputDirectory": ".next",
-  "regions": ["all"],
   "headers": [
     {
       "source": "/(.*)",
