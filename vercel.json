@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "installCommand": "npm install --force",
+  "installCommand": "npm ci --ignore-scripts --force",
   "framework": "nextjs",
   "outputDirectory": ".next",
   "regions": ["all"],
