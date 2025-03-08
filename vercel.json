@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "installCommand": "npm install --no-package-lock --force",
+  "installCommand": "node install-deps.js",
   "framework": "nextjs",
   "outputDirectory": ".next",
   "headers": [
