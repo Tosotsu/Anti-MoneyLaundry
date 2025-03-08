@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "installCommand": "npm ci --ignore-scripts --force",
+  "installCommand": "npm install --no-package-lock --force --omit=dev",
   "framework": "nextjs",
   "outputDirectory": ".next",
   "regions": ["all"],
